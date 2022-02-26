@@ -163,14 +163,11 @@ a:hover {
 }
 
 /* Card Specifications */
-.form {
+
+.loader {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-}
-
-.loader {
   border-radius: 50%;
   width: 8rem;
   height: 8rem;
