@@ -171,8 +171,8 @@ a:hover {
   border-radius: 50%;
   width: 8rem;
   height: 8rem;
-  border: 16px solid #636333;
-  border-left: 16px solid #222211;
+  border: 8px solid #636333;
+  border-left: 8px solid #222211;
   animation: load 4000ms infinite ease-in-out;
 }
 
