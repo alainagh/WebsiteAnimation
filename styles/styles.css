@@ -172,7 +172,7 @@ a:hover {
   width: 8rem;
   height: 8rem;
   border: 16px solid rgba(255, 255, 255, 0.4);
-  border-left: 16px solid #ffffff;
+  border-left: 16px solid #ababab;
   animation: load 4000ms infinite ease-in-out;
 }
 
