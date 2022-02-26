@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body Specifications */
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+p {
+  font-family: "Roboto Mono", sans-serif;
+  color: #434343;
+}
+
+h1 {
+  color: #222211;
+}
+
+h2 {
+  color: #37371b;
+}
+
+h3 {
+  color: #636333;
+}
+
+/* Link Specifications */
+
+a:link {
+  color: #636333;
+}
+
+a:visited {
+  color: #222211;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hero Specifications */
+
+.hero {
+  position: relative;
+  viewport-fit: 100%;
+}
+
+.hero .wrapper {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent 50%);
+}
+
+.wrapper article {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  color: lightgray;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.hero p {
+  font-family: "Raleway", sans-serif;
+  color: lightgray;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.hero picture {
+  display: block;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+}
+
+/* Button Specifications */
+
+.button {
+  background-color: #37371b;
+  border-radius: 3px;
+  color: #636333;
+  display: inline-block;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.button:hover {
+  background-color: var(--highlight-color-dark);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.button:active {
+  background-color: var(--highlight-color);
+  box-shadow: none;
+}
+
+.button:focus {
+  background-color: var(--highlight-color-dark);
+  box-shadow: 0 0 0 2px var(--highlight-color-light) inset;
+  color: #fff;
+}
+
+/* Card Specifications */
+* {
+  box-sizing: border-box;
+}
+
+.cards {
+  width: 300px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.card {
+  position: relative;
+}
+
+.card p {
+  color: white;
+  font-style: bold;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .overlay {
+  transition: 500ms;
+  opacity: 0.9;
+}
+
+.card:hover img {
+  transition: 500ms;
+  filter: grayscale(0.4) brightness(0.3);
+}
+
+/* Card Specifications */
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.loader {
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  border: 16px solid rgba(255, 255, 255, 0.4);
+  border-left: 16px solid #ffffff;
+  animation: load 4000ms infinite ease-in-out;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
