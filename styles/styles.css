@@ -168,12 +168,11 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ababab;
   border-radius: 50%;
   width: 8rem;
   height: 8rem;
   border: 16px solid rgba(255, 255, 255, 0.4);
-  border-left: 16px solid #656565;
+  border-left: 16px solid #222211;
   animation: load 4000ms infinite ease-in-out;
 }
 
